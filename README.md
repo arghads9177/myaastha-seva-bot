@@ -36,8 +36,8 @@ MyAastha-Seva-Bot/
 ## Setup & Installation
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/MyAastha-Seva-Bot.git
-cd MyAastha-Seva-Bot
+git clone https://github.com/arghads9177/myaastha-seva-bot.git
+cd myaastha-seva-bot
 ```
 
 ### 2️⃣ Create a Virtual Environment
@@ -56,7 +56,6 @@ Create a `.env` file and add the necessary API keys:
 ```
 GROQ_API_KEY=your_groq_api_key
 OPENAI_API_KEY=your_openai_api_key
-CHROMA_DB_PATH=./data/chroma_db
 ```
 
 ### 5️⃣ Run the Chatbot
@@ -65,7 +64,7 @@ streamlit run app.py
 ```
 
 ## Future Enhancements
-- ✅ **Deploy on DigitalOcean**
+- ✅ **Deploy on DigitalOcean or any other cloud platform(AWS, GCP)**
 - ✅ **Add More Data Sources for FAQs**
 - ✅ **Enhance UI with User Authentication**
 - ✅ **Improve Response Accuracy using LoRA Fine-tuning**
