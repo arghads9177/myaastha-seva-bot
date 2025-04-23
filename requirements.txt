@@ -1,7 +1,7 @@
 torch==2.1.2 --index-url https://download.pytorch.org/whl/cpu
 transformers
 sentence-transformers
-numpy
+numpy==1.26.0
 langchain
 langchain-core
 langchain-community
